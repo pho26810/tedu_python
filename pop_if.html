@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://www.tedu.tw/# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+	<meta name="google-site-verification" content="P1QmpVEVetMInxnV5BpzmyzLADyf_pTjzoDck58RGPs" />
+    <title>學生兩人同行 享學雜費補助 - 達內台灣</title>
+<meta name="description" content="Java課程首選達內教育-.還有Java課程,UI課程-讓你不再UI UX課程分不清楚,網路行銷課程,大陸註冊會計等.零基礎進修IT業就業通,結業即就業只在達內教育">
+    <!--swiper2.0-->
+    <!--media-->
+    <link href="css/media-queries.css" rel="stylesheet" type="text/css">
+    <link href="https://www.tedu.tw/zt/erren/css/pop.css" rel="stylesheet" type="text/css">
+    <meta property="og:image" content="http://www.tedu.tw/logo.jpg">
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MT8JJ8F');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">您的瀏覽器版本太低，請到 <a href="http://browsehappy.com" target="_blank">這裏<a class="brow-close">關閉</a></a>
+    更新，已獲取最佳體驗。謝謝！</p>
+<![endif]-->
+<!--[if IE 7]>
+<style>.wrap {display: none;}.browserupgrade{display:none;}</style>
+<div class="ie7-alert">
+    <a href="http://browsehappy.com" target="_blank"></a>
+</div>
+<![endif]-->
+<div class="wrap">
+    <div class="content">
+        <div class="global_container">
+            <!--表單彈框-->
+            <div class="form_pop box_content" style="display: block">
+				<div class="form_pop_content box_content">
+				   <!-- <span class="pop_close"><img src="img/form_pop_close.jpg"></span>-->
+					<div class="form_pop_tit">
+						<p><img src="https://www.tedu.tw/zt/erren/img/pop_tit.png"></p>
+						<h3>
+							登記成功！<br> 恭喜您取得優先保留名額
+						</h3>
+					</div>
+					<p class="pop_del_p box_content">
+						將有專人於3個工作天內與您電話聯絡，請於預約確認後，盡速至鄰近分校索取
+						免費贈品、課程簡章！
+					</p>
+					<p class="pop_del_p box_content">
+						若超過期限未有專人與您聯絡，請立即來電詢問，優先保留您的權益。
+					</p>
+					<div class="form_pop_del box_content">
+						<p class="form_pop_list form_pop_list1">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名： <span id="show_name">某某</span></p>
+						<p class="form_pop_list2">聯絡電話：<span id="show_phone"></span></p>
+						<p class="form_pop_list3">試聽課程：<span id="beiZhu"></span></p>
+						<p class="form_pop_list4">分校名稱：<span>達內台北中心</span></p>
+						<p class="form_pop_list5">分校地址：<span>台北市中正區忠孝西路一段100號10樓</span></p>
+						<p class="form_pop_list6" tel="">分校電話：<span>0800-777-100</span></p>
+					</div>
+					<div class="pop_form_bottom box_content">多一個專長 多一分競爭力！<!--<span class="pop_close">【點擊關閉】</span>--></div>
+				</div>
+			</div>
+        </div>
+        <!--java END-->
+    </div>
+</div>
+<!--jquery-->
+
+<!--java-->
+
+
+
+<!--表單彈框 END-->
+
+<script src="https://www.tedu.tw/courses/ui/js/jquery.js"></script>
+<script src="js/respond.min.js"></script>
+<script>$('[data-sidenav]').sidenav();</script>
+
+<!--myjs-->
+
+
+<script>
+    String.prototype.trim = function () {
+        return this .replace(/^\s\s*/, '' ).replace(/\s\s*$/, '' );
+    };
+    function getCookie(cname)
+    {
+
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++)
+        {
+            var c = ca[i].trim();
+            if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+        }
+        //return "";
+    }
+    if(window.localStorage){
+        $('#show_name').text(localStorage.getItem("name"));
+        $('#show_phone').text(localStorage.getItem("phone"));
+        $('#beiZhu').text(localStorage.getItem("courses"));
+    }else {
+        $('#show_name').text(getCookie('name'));
+        $('#show_phone').text(getCookie('phone'));
+        $('#beiZhu').text(getCookie('courses'));
+    }
+
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT8JJ8F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script src="https://www.tedu.tw/zhuzhan/js/head.js"></script></body></html>
